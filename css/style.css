@@ -1,0 +1,217 @@
+/* common css start */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Ubuntu', ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css end */
+
+/* top_bar css start */
+header .top_bar{
+    background: #0f2f44;
+    color:#fff;
+    padding: 18px 0px;
+}
+header .top_bar .top_bar_left{
+    width: 50%;
+}
+header .top_bar .top_bar_right{
+    width: 50%;
+    text-align: right;
+}
+/* top_bar css end */
+
+/* nav css start */
+header nav .row{
+    align-items: center;
+}
+header nav .logo{
+    width: 20%;
+}
+header nav .menu{
+    width: 80%;
+}
+header nav .menu ul{
+    justify-content: flex-end;
+}
+header nav .menu ul li a{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 42px 20px;
+    display: inline-block;
+    transition: 0.4s;
+}
+header nav .menu ul li:hover > a{
+    background: #fff9e6;
+}
+header nav .menu ul li > i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+    
+}
+
+header nav .menu ul li ul{
+    position:absolute;
+    display: none;
+    
+    /* opacity: 0;
+    visibility: hidden; */
+}
+header nav .menu ul li:hover ul{
+    display: block;
+    /* opacity: 1;
+    visibility: visible; */
+}
+header nav .menu ul li ul li{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 12px 26px;
+}
+/* nav css end */
+
+/* banner css start */
+#banner{
+
+    background: url(../image/banner.jpg);
+    background-size: cover;
+    height: 600px;
+}
+#banner .row{
+    height: 100%;
+    align-items: center;
+}
+#banner .banner_content{
+    width: 40%;
+}
+#banner .banner_content small{
+    color: #0f2f44;
+    font-size: 60px;
+}
+#banner .banner_content h1{
+    color:#0f2f44;
+    font-family: 'Abril Fatface';
+    font-size: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#banner .banner_content h3{
+    color: #8484bf;
+    font-size: 32px;
+    font-weight: 400;
+    /* word-spacing: 44px; */
+}
+#banner .banner_content p{
+    color: #444444;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 33px 0 ;
+}
+#banner .banner_content .explore{
+    background: #8383bf;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+#banner .banner_content  i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    line-break: 35px;
+    line-height: 35px;
+    align-items: center;
+}
+/* banner css end */
+
+/* about_us css start */
+#about_us{
+    margin-top: 100px;
+}
+#about_us .about_us_content{
+    width: 50%;
+}
+#about_us .about_us_img{
+    width: 50%;
+}
+#about_us .about_us_content h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#about_us .about_us_content h1{
+    color: #0f2f44;
+    font-family: 'Abril Fatface' ;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+#about_us .about_us_content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #0f2f44;
+
+}
+/* about_us css end */
+
+/* our_skills css start */
+#our_skills{
+    margin: 100px 0;
+}
+#our_skills .our_skills_img{
+    width: 50%;
+}
+#our_skills .our_skills_content{
+    width: 50%;
+}
+#our_skills .our_skills_content p{
+    margin-bottom: 30px;
+}
+#our_skills .progress_bar{
+    width: 410px;
+    position: absolute;
+    right: 86px;
+}
+#our_skills .percent{
+    width: 50%;
+    justify-content: flex-start;
+}
+#our_skills .subject{
+    width: 50%;
+    text-align: right;
+}
+/* our_skills css end */
